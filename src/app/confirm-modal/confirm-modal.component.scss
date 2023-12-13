@@ -1,0 +1,65 @@
+.modal-content {
+    position: fixed;
+    width: 320px;
+    height: 210px;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+  }
+  
+  .button-red {//boton redondo
+    background-color: #ff0000;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 50%;
+    margin-right: 5px;
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6319;
+    border-color: #0d6319;
+}
+.btn-second {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.button-green {//boton redondo
+    background-color: #0d6319;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 5px;
+
+}
+.mat-dialog-title {
+    color: #ffffff;
+    margin-top: 15px;
+}
+.mat-dialog-actions {
+ flex-wrap: nowrap;
+}
+.message-text {
+    color: #ffffff;  
+}
+.container{
+    margin: 15px;
+    display: block;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }  

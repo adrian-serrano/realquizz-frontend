@@ -1,0 +1,201 @@
+{
+    "questions": [{
+        "questionText": "Indique un modelo de ciclo de vida.",
+        "options": [
+            {
+                "text": "Modelo de programación extrema",
+                "correct": false
+            },
+            {
+                "text": "Modelo de desarrollo guiado por pruebas",
+                "correct": false
+            },
+            {
+                "text": "Modelo de desarrollo en bucle",
+                "correct": false
+            },
+            {
+                "text": "Modelo en cascada",
+                "correct": true
+            }
+        ],
+        "explanation": "Modelo en cascada es un modelo de ciclo de vida ampliamente utilizado en el desarrollo de software. Este modelo sigue una secuencia lineal y secuencial de actividades, donde cada fase se lleva a cabo de manera secuencial y no se pasa a la siguiente fase hasta que la fase actual esté completa."
+    },
+    {
+        "questionText": "Para cada una de las siguientes frases, indicar cuál es la que encaja con el rol de lider.",
+        "options": [
+            {
+                "text": "Impedir con mucho tacto que alguien sea dominante o pase desapercibido",
+                "correct": false
+            },
+            {
+                "text": "Notifica y avisa al equipo cuando el tiempo asignado para un punto ha pasado o está a punto de terminar",
+                "correct": false
+            },
+            {
+                "text": "Convoca y facilita las reuniones",
+                "correct": true
+            },
+            {
+                "text": "Intervenir si la discusión se fragmenta en discusiones múltiples",
+                "correct": false
+            }
+        ],
+        "explanation": "En el rol de líder, una de las responsabilidades clave es convocar y facilitar las reuniones del equipo. Esto implica organizar y coordinar las reuniones"
+    },
+    {
+        "questionText": "Indica si las siguientes afirmación es verdadera o falsa: Una varianza de calendario negativo indica que el valor planificado es menor que el valor ganado.",
+        "options": [
+            {
+                "text": "Verdadero",
+                "correct": false
+            },
+            {
+                "text": "Falso",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ],
+        "explanation": "En realidad, una varianza de calendario negativo indica que el tiempo planificado para completar una tarea es mayor que el tiempo real que se ha empleado. Es decir, indica que el proyecto se está retrasando en comparación con el plan establecido."
+    },
+    {
+        "questionText": "¿Cómo se calcula la variación en el costo del proyecto??",
+        "options": [
+            {
+                "text": "VAC=BAC-EAC",
+                "correct": true
+            },
+            {
+                "text": "VAC=EAC-BAC",
+                "correct": false
+            },
+            {
+                "text": "VAC=BAC+EAC",
+                "correct": false
+            },
+            {
+                "text": "VAC=BAC*EAC",
+                "correct": false
+            }
+        ],
+        "explanation": "La opción correcta es VAC = BAC - EAC. La Variación en el Costo del Proyecto (VAC, por sus siglas en inglés) se calcula restando el Costo Estimado al Completar (EAC) del Presupuesto al Completar (BAC). Este cálculo permite determinar si el proyecto está dentro o fuera del presupuesto planificado."
+    },
+    {
+        "questionText": "Indica si las siguientes afirmación es verdadera o falsa: •\tUna varianza de costes por encima de valor 1 indica que no se superó el presupuesto.",
+        "options": [
+            {
+                "text": "Verdadero",
+                "correct": true
+            },
+            {
+                "text": "Falso",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ],
+        "explanation": "La opción correcta es Verdadero. Una varianza de costes por encima de 1 indica que el proyecto se encuentra dentro o por debajo del presupuesto planificado"
+    },
+    {
+        "questionText": "¿Cuál de las siguientes opciones es la forma correcta de calcular las previsiones para completar un proyecto?",
+        "options": [
+            {
+                "text": "EAC = AC + BAC",
+                "correct": false
+            },
+            {
+                "text": "EAC = BAC / AC",
+                "correct": false
+            },
+            {
+                "text": "EAC = AC / BAC",
+                "correct": false
+            },
+            {
+                "text": "EAC = AC + (BAC - EV)",
+                "correct": true
+            }
+        ],
+        "explanation": "La opción correcta es EAC = AC + (BAC - EV). Para calcular las previsiones para completar un proyecto, se utiliza la fórmula del Costo Estimado al Completar (EAC) que suma el Costo Real (AC) al presupuesto restante (BAC - EV)"
+    },
+    {
+        "questionText": "¿Cuál de las siguientes opciones describe mejor las medidas recogidas en el plan de calidad?",
+        "options": [
+            {
+                "text": "Son las actividades que se llevan a cabo para garantizar que el software cumpla con los requisitos del cliente.",
+                "correct": false
+            },
+            {
+                "text": "Son los controles realizados durante el proceso de desarrollo para garantizar la calidad del software.",
+                "correct": false
+            },
+            {
+                "text": "Son las evaluaciones llevadas a cabo al final del proceso de desarrollo para determinar la calidad del software.",
+                "correct": false
+            },
+            {
+                "text": "Son las métricas utilizadas para medir la calidad del software en el proceso de desarrollo.",
+                "correct": true
+            }
+        ],
+        "explanation": "Las medidas recogidas en el plan de calidad son métricas específicas utilizadas para evaluar y medir la calidad del software durante el proceso de desarrollo"
+    },
+    {
+        "questionText": "La principal diferencia entre una revisión y una inspección es que una inspección es liderada por el autor y la revisión sin embargo se realiza por el jefe de calidad.",
+        "options": [
+            {
+                "text": "Verdadero",
+                "correct": false
+            },
+            {
+                "text": "Falso",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ],
+        "explanation": "La principal diferencia entre una revisión y una inspección no está relacionada con quién las lidera, sino con el enfoque y el propósito. En una revisión, el objetivo es examinar el producto de manera informal y colaborativa, mientras que en una inspección se sigue un proceso más formal y estructurado para detectar y corregir defectos."
+    },
+    {
+        "questionText": "Indicar cómo se puede evaluar el funcionamiento de una lista de comprobación.",
+        "options": [
+            {
+                "text": "No se registran los posibles problemas identificados con cada elemento de la lista de comprobación.",
+                "correct": false
+            },
+            {
+                "text": "Al analizarse los defectos no se evalúa el funcionamiento.",
+                "correct": false
+            },
+            {
+                "text": "La lista de comprobación se puede revisar eliminado los elementos que no están asociados a la detección de problemas potenciales. ",
+                "correct": true
+            },
+            {
+                "text": "La lista de comprobación no se puede revisar ",
+                "correct": false
+            }
+        ],
+        "explanation": "Para evaluar el funcionamiento de una lista de comprobación, es útil revisarla y eliminar los elementos que no son relevantes para la detección de problemas potenciales. Esto asegura que la lista de comprobación se enfoque en los aspectos críticos y mejore su eficacia en la identificación de problemas"
+    }
+]
+}

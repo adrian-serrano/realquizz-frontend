@@ -1,0 +1,73 @@
+.image {
+    place-self: center;
+    margin: 2rem;
+}
+
+.card {
+    border: 0px;
+    background-color: #000000;
+}
+
+.round-button {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #000000;
+    width: 500px;
+    height: 500px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.round-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button-white {
+    background-color: #ffffff;
+    color: #000000;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 70%;
+}
+
+.button-white:hover {
+    background-color: #0d6319;
+    color: #ffffff;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.button-settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.volume-button {
+    width: 40px;
+    height: 40px;
+  }
+  .settings-button {
+    width: 35px;
+    height: 35px;
+    right: 0px;
+  }

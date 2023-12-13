@@ -1,0 +1,27 @@
+<div class="container mt-5">
+
+    <div class="card">
+        <div class="button-settings">
+            <img [src]="imageSource" alt="volume" class="volume-button" (click)="toggleImage()" >
+            
+            <!-- <img src="/assets/img/settings.png" alt="settings" class="settings-button"> -->
+    
+        </div>
+        <img src="/assets/img/logo-no-background.png" width="200" alt="logo" class="image">
+<div class="container">
+    <h1 class="white">Bienvenido a RealQuiz</h1>
+    <h4 class="white">Reglas:</h4>
+    <ol>
+        <li class="white">Respuestas corrrectas 10 puntos</li>
+        <li class="white">Respuestas incorrrectas -10 puntos</li>
+        <li class="white">Hay tiempo limitado para el cuestionario diario e ilimitado para los cuestionarios</li>
+        <li class="white">Disfruta!!</li>
+    </ol>
+    <div class="name col-md-4 my-3">
+        <label for="" class="white">Nombre del jugador: </label>
+        <input #name type="text" class="form-control" (input)="checkInputValue(name.value)">
+    </div>
+    <button class="button-white" routerLink="/menu" (click)="startQuiz()"  [disabled]="isInputEmpty" >Empezar Real Quiz!!</button>
+</div>
+</div>
+</div>

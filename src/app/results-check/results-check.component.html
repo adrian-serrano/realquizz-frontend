@@ -1,0 +1,23 @@
+<app-header></app-header>
+    <div class="card">
+        <h3>Cuestionario {{ this.selectedNumber }}</h3>
+        <div *ngFor="let question of questionsList; let preguntaIndex = index; let optionIndexCorrect">
+            <h4>Pregunta {{ preguntaIndex + 1 }}</h4>
+            <h5>{{ question.questionText }}</h5>
+            <div class="option-container" *ngFor="let option of question.options">
+                <span [ngClass]="{
+                  'correct-option': option.correct,
+                  'incorrect-option': !option.correct && option.correct !== undefined,
+                  'default-option': option.correct === undefined
+                }"> • {{ option.text }}</span>
+              </div>
+                     
+            <div class="option-container">
+                <h6>Explicación: {{ question.explanation }} </h6>
+                <div *ngFor="let option of question.options; let optionIndex = index">
+                    <h6 *ngIf="option.correct"> Por lo tanto la opción correcta es la Opción {{optionIndex + 1}} </h6>
+                </div>
+            </div>
+        </div>
+        <button class="btn" (click)="openConfirmModal()" [disabled]="isModalOpen"><i class="fa fa-home text-black fa-3x" aria-hidden="true"></i></button>
+    </div>

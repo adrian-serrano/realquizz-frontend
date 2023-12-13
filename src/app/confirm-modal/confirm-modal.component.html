@@ -1,0 +1,8 @@
+<div mat-dialog-content class="modal-content">
+  <h2 mat-dialog-title>⚠️Atención</h2>
+  <label class="message-text">{{ data.message }}</label>
+  <div mat-dialog-actions class="button-container">
+    <button class="btn btn-second"  mat-button (click)="onNoClick()">Cancelar</button>
+    <button class="btn btn-primary"  mat-button color="warn" (click)="onYesClick()">Aceptar</button>
+  </div>
+</div>

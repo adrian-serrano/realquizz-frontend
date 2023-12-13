@@ -1,0 +1,15 @@
+<app-header></app-header>
+<div>
+    <div class="card">
+        <div class="container">
+            <div class="container-button">
+                <button *ngFor="let number of numbers" class="square" (click)="buttonClicked(number)">{{ number }}</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between">
+            <button [disabled]="currentQuestion===0" class="btn" (click)="previousQuestion()"><i class="fa text-black fa-chevron-left fa-3x" aria-hidden="true"></i></button>
+            <button class="btn" (click)="openConfirmModal()" [disabled]="isModalOpen"><i class="fa fa-home text-black fa-3x" aria-hidden="true"></i></button>
+            <button class="btn" (click)="nextQuestion()"><i class="fa text-black fa-chevron-right fa-3x" aria-hidden="true"></i></button>
+        </div>
+    </div>
+</div>

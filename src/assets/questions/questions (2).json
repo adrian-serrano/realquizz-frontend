@@ -1,0 +1,201 @@
+{
+    "questions": [{
+        "questionText": "¿Qué problema deben resolver los ingenieros cuando trabajan juntos en un proyecto?",
+        "options": [
+            {
+                "text": "Cómo trabajar juntos formando un equipo.",
+                "correct": true
+            },
+            {
+                "text": "Cómo definir a los otros compañeros.",
+                "correct": false
+            },
+            {
+                "text": " Cómo realizar el trabajo de forma individual.",
+                "correct": false
+            },
+            {
+                "text": " Cómo mejorar sus habilidades técnicas.",
+                "correct": false
+            }
+        ],
+        "explanation": "Los ingenieros trabajan juntos en un proyecto, el problema principal que deben resolver es cómo colaborar y trabajar eficientemente como un equipo. La ingeniería de software es un campo altamente colaborativo donde se requiere la contribución de múltiples personas con habilidades y conocimientos complementarios para lograr los objetivos del proyecto."
+    },
+    {
+        "questionText": "¿Cuál es la tarea principal de los ingenieros al trabajar juntos en un proyecto?",
+        "options": [
+            {
+                "text": "Asignar las tareas a los miembros de otros equipos.",
+                "correct": false
+            },
+            {
+                "text": "Coordinar cada una de estas tareas.",
+                "correct": true
+            },
+            {
+                "text": "Hacer el seguimiento sin aviso previo.",
+                "correct": false
+            },
+            {
+                "text": "Informar de sus progresos solo al terminar todo el trabajo.",
+                "correct": false
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "¿Qué deben hacer los ingenieros para asegurarse de que trabajan juntos como equipo en un proyecto?",
+        "options": [
+            {
+                "text": "Comunicar regularmente.",
+                "correct": true
+            },
+            {
+                "text": "Trabajar de forma individual.",
+                "correct": false
+            },
+            {
+                "text": "Competir por el reconocimiento.",
+                "correct": false
+            },
+            {
+                "text": "Ignorar a los demás miembros del equipo.",
+                "correct": false
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "¿Qué determina el Modelo de Proceso en el desarrollo de software?",
+        "options": [
+            {
+                "text": "Los procesos que han de realizarse para desarrollar software.",
+                "correct": true
+            },
+            {
+                "text": "Las actividades y tareas implicadas.",
+                "correct": false
+            },
+            {
+                "text": "La planificación y el seguimiento del proyecto.",
+                "correct": false
+            },
+            {
+                "text": "Las herramientas y tecnologías a utilizar.",
+                "correct": false
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "¿Qué determina el Ciclo de Vida en el desarrollo de software?",
+        "options": [
+            {
+                "text": "Los procesos y el orden en que se realizan.",
+                "correct": true
+            },
+            {
+                "text": "Las actividades y tareas no implicadas.",
+                "correct": false
+            },
+            {
+                "text": "La planificación y el seguimiento del proyecto.",
+                "correct": false
+            },
+            {
+                "text": "Las herramientas y tecnologías a utilizar.",
+                "correct": false
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "¿Cuáles son los comportamientos facilitadores de la eficacia? ",
+        "options": [
+            {
+                "text": "Hablar constantemente a otros participantes",
+                "correct": false
+            },
+            {
+                "text": "Abordar cualquier tipo de tema.",
+                "correct": false
+            },
+            {
+                "text": "Tratamiento de las diferencias.",
+                "correct": true
+            },
+            {
+                "text": "Enfrentarse a otros compañeros.",
+                "correct": false
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "¿Qué roles deberían al menos formar parte del CCC? ",
+        "options": [
+            {
+                "text": "Responsable de Equipo",
+                "correct": false
+            },
+            {
+                "text": "Responsable de Software",
+                "correct": false
+            },
+            {
+                "text": "Responsable de Soporte",
+                "correct": true
+            },
+            {
+                "text": "Responsable de Reconocimiento",
+                "correct": false
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Al introducir un Elemento de Configuración Nuevo bajo gestión de configuración, quién tiene que dar el visto bueno/aprobar antes del visto bueno/aprobación del CCC en su reunión inicial. ",
+        "options": [
+            {
+                "text": "Responsable de Soporte",
+                "correct": false
+            },
+            {
+                "text": "Propietario",
+                "correct": true
+            },
+            {
+                "text": "Responsable de Desarrollo",
+                "correct": false
+            },
+            {
+                "text": "Responsable de Reconocimiento",
+                "correct": false
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Para calcular el índice de rendimiento de coste (CPI) dividimos el coste actual entre el planificado.",
+        "options": [
+            {
+                "text": "Verdadero",
+                "correct": false
+            },
+            {
+                "text": "Falso",
+                "correct": true
+            },
+            {
+                "text": "",
+                "correct": false
+            },
+            {
+                "text": "",
+                "correct": false
+            }
+        ],
+        "explanation": ""
+    }
+]
+}

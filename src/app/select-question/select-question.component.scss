@@ -1,0 +1,41 @@
+.container-button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+//   .row {
+//     margin-top: 10px;
+//   }
+  
+//   .btn {
+//     color: white;
+//     font-weight: bold;
+//     height: 60px;
+//     width: 60px;
+//     margin: 20px;
+//   }
+  

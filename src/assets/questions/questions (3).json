@@ -1,0 +1,177 @@
+{
+    "questions": [{
+            "questionText": "La arquitectura software:",
+            "options": [
+                {
+                    "text": "Se ocupa del diseño de algoritmos",
+                    "correct": false
+
+                },
+                {
+                    "text": "Conjunto de estructuras necesarias para razonar sobre el sistema",
+                    "correct": true
+                },
+                {
+                    "text": "Se ocupa del diseño abstracto de datos"
+                },
+                {
+                    "text": "Cubre el desarrollo de sistemas"
+                }
+            ],
+            "explanation": "La arquitectura de software se refiere a la estructura o diseño general de un sistema o aplicación de software."
+        },
+        {
+            "questionText": "El metodo FURPS corresponde a:",
+            "options": [
+                {
+                    "text": "Un metodo para generar la perspectiva de despliegue"
+                },
+                {
+                    "text": "Un metodo que tiene en cuenta la usabilidad",
+                    "correct": true
+                },
+                {
+                    "text": "Un metodo que cumple con las recomendaciones de documentacion"
+                },
+                {
+                    "text": "Un metodo que tiene en cuenta la fiabilidad"
+                }
+            ],
+            "explanation": "El método FURPS (Functionality, Usability, Reliability, Performance, Supportability) es un enfoque utilizado para definir los criterios de calidad y requisitos de un sistema software. Se enfoca en aspectos como la usabilidad, la confiabilidad, el rendimiento y la capacidad de soporte."
+        },
+        {
+            "questionText": "La responsabilidad de un arquitecto software es",
+            "options": [
+                {
+                    "text": "Diseñar aquellos componentes que se comunican con el hardware"
+                },
+                {
+                    "text": "Tomar decisiones de diseño para satisfacer drivers arquitectonicos",
+                    "correct": true
+                },
+                {
+                    "text": "Tomar decisiones de como desarrollar el código más rápido usando el estandar de calidad ISO" 
+                },
+                {
+                    "text": "Diseñar las interfaces y analizar las implicaciones existentes entre elemento externos al sistema"
+                }
+            ],
+            "explanation": "La responsabilidad de un arquitecto software es tomar decisiones de diseño para satisfacer los drivers arquitectónicos del sistema. Esto implica definir la estructura general del sistema, seleccionar tecnologías adecuadas y asegurar que el diseño cumpla con los requisitos y objetivos establecidos."
+        },
+        {
+            "questionText": "Posibles razones para documentar la arquitectura",
+            "options": [
+                {
+                    "text": "Representar a una de las partes interesadas en la negociacion de requisitos"
+                },
+                {
+                    "text": "Guiar la generación de artefactos en otras fases del ciclo de vida",
+                    "correct": true
+                },
+                {
+                    "text": "Representar la relación entre elementos externos al sistema por medio de cajas"
+                },
+                {
+                    "text": "Guiar la implantación de sistemas usando conectores de servicios"
+                }
+            ],
+            "explanation": "Documentar la arquitectura del software tiene como objetivo guiar la generación de artefactos en otras fases del ciclo de vida del proyecto. La documentación ayuda a comunicar y comprender la arquitectura del sistema, facilitando la implementación, el mantenimiento y la evolución del software."
+        },
+        {
+            "questionText": "¿Qué se realiza al diseñar una arquitectura?",
+            "options": [
+                {
+                    "text": "Se toman decisiones con el fin de transformar los drivers arquitectónicos en estructuras",
+                    "correct": true
+                },
+                {
+                    "text": "Se recopilan las reglas de gestión"
+                },
+                {
+                    "text": "Se toman decisiones con el fin de reducir la necesidad de infraestructura"
+                },
+                {
+                    "text": "Se genera el diagrama de contexto"
+                }
+            ],
+            "explanation": " Al diseñar una arquitectura, se toman decisiones con el fin de transformar los drivers arquitectónicos (requisitos y objetivos clave) en estructuras arquitectónicas. Estas decisiones incluyen la selección de componentes, la definición de interfaces y la organización general del sistema."
+        },
+        {
+                "questionText": "¿Cómo se sabe que se ha conseguido una buena arquitectura?",
+                "options": [
+                  {
+                    "text": "Por que la ha diseñado un equipo de arquitectos pequeño"
+                  },
+                  {
+                    "text": "Porque la ha diseñado un equipo de arquitectos grande y no uno pequeño",
+                    "correct": false
+                  },
+                  {
+                    "text": "Porque no hay documentación"
+                  },
+                  {
+                    "text": "Si al cambiar el contexto la arquitectura puede mantenerse estable",
+                    "correct": true
+                  }
+                ],
+                "explanation": "La estabilidad de la arquitectura frente a los cambios en el contexto es una señal de que se ha logrado una buena arquitectura."
+              },
+              {
+                "questionText": "¿Cuál de las siguientes preguntas es verdadera?",
+                "options": [
+                  {
+                    "text": "La demostración de la Facilidad de cambio es una actividad del proceso de diseño arquitectónico "
+                  },
+                  {
+                    "text": "Una entrada para el proceso de diseño arquitectónico es la especificación de requisitos software (SRS)",
+                    "correct": true
+                  },
+                  {
+                    "text": "Parametrizar la eficiencia del sistema en términos de porcentaje ayuda a diseñar el sistema en situaciones de alta carga"
+                  },
+                  {
+                    "text": "A veces el diseño de la arquitectura se realiza a la par que el diseño del producto"
+                  }
+                ],
+                "explanation": "Una entrada para el proceso de diseño arquitectónico es la especificación de requisitos software (SRS). La especificación de requisitos proporciona los requisitos y objetivos clave que guían el diseño de la arquitectura del software. Es fundamental comprender y tener en cuenta los requisitos del software durante el proceso de diseño arquitectónico."
+              },
+              {
+                "questionText": "Cual de las siguientes preguntas puede considerarse que se refiere a aspectos de calidad no observable a través la ejecución",
+                "options": [
+                  {
+                    "text": "¿Qué tan fácil se prueba e integra el software?",
+                    "correct": true
+                  },
+                  {
+                    "text": "¿Funciona el sistema como se desea cuando se conecta a otros sistemas?"
+                  },
+                  {
+                    "text": "¿En qué medida el sistema está logrando el comportamiento requerido?"
+                  },
+                  {
+                    "text": "¿En qué medida el sistema está funcionando correctamente?"
+                  }
+                ],
+                "explanation": "La pregunta ¿Qué tan fácil se prueba e integra el software? se refiere a aspectos de calidad que no son directamente observables a través de la ejecución del sistema. Evalúa la facilidad y eficiencia del proceso de prueba y la integración del software en el entorno operativo. Esta pregunta aborda aspectos de calidad relacionados con la facilidad de mantenimiento y la capacidad de realizar cambios en el software de manera eficiente."
+              },
+              {
+                "questionText": "Los defectos se consideran importantes para el usuario cuando:",
+                "options": [
+                  {
+                    "text": "Afecten a las operaciones",
+                    "correct": true
+                  },
+                  {
+                    "text": "Falla la documentación"
+                  },
+                  {
+                    "text": "Porque se ha diseñado mal la arquitectura"
+                  },
+                  {
+                    "text": "Si al cambiar el lenguaje de programación se tiene que cambiar toda la arquitectura"
+                  }
+            ],
+            "explanation": "Los defectos se consideran importantes para el usuario cuando afectan a las operaciones. Esto significa que los defectos tienen un impacto negativo en la funcionalidad o el rendimiento del sistema."
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<app-header></app-header>
+<div class="card">
+<table>
+    <thead>
+      <tr>
+        <th>Nº </th>
+         <th>Fecha </th> 
+        <th>Puntos</th>
+        <th>C/I</th>
+        <th>Nº Preguntas</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let quiz of this.dataService.results">
+        <td>{{ quiz.number }}</td>
+         <td>{{ quiz.date }}</td> 
+        <td class="center">{{ quiz.score }}</td>
+        <td>{{ quiz.rightwrong }} </td>
+        <td class="center">{{ quiz.numberOfQuestions }}</td> 
+        <td><button class="btn btn-primary custom-btn"  routerLink="/results-check" (click)="this.dataService.selectedNumber=quiz.number"><span >+</span></button></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="d-flex justify-content-around">
+    <button class="btn" (click)="openConfirmModal()" [disabled]="isModalOpen"><i class="fa fa-home text-black fa-3x" aria-hidden="true"></i></button>
+</div>
+</div>

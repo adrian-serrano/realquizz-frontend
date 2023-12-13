@@ -1,0 +1,18 @@
+<div class="container mt-5">
+
+    <div class="card">
+        <div class="button-settings">
+            
+            <img [src]="imageSource" alt="volume" class="volume-button" (click)="toggleImage()" >
+            <img src="/assets/img/settings.png"  alt="settings" class="settings-button"  >
+            
+    
+        </div>
+        <img src="/assets/img/logo-no-background.png" width="200" alt="logo" class="image">
+
+        <div class="button-container">
+                <button class="button-white" routerLink="/select-question" (click)="gameMode(1)">Elegir cuestionario</button>
+                <button class="button-white" routerLink="/question" (click)="gameMode(2)">Cuestionario al azar</button>
+        </div>
+    </div>
+</div>
